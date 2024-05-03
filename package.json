@@ -5,7 +5,8 @@
   "scripts": {
     "start": "parcel Index.html",
     "build": "parcel build Index.html",
-    "test": "jest"
+    "test": "jest",
+    "dev": "parcel Index.html"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,8 @@
   },
   "homepage": "https://github.com/Gautam8963/namaste-react#readme",
   "devDependencies": {
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
     "react": "^18.3.1",

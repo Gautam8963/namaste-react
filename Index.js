@@ -17,7 +17,7 @@ const HeadingComponent = () => {
     return <h1 className='heading'>Namaste react course ! </h1>
 }
 
-console.log(heading)
+// console.log(heading)
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<HeadingComponent/>)
